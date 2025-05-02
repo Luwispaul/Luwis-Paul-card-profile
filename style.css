@@ -74,9 +74,11 @@ i {
 .skills ul {
     list-style: none;
     display: flex;
-   flex-direction: row;
-   justify-content: center;
-   gap:15px ;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px ;
 }
 
 .skills li {
